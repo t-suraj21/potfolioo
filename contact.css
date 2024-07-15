@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.head{
+  display: flex;
+  background-image:url('img1.jpg');
+  background-color: rgb(206, 215, 137);
+  background-size: cover;
+  height: 742px;
+}
+.head2{
+  display: flex;
+  background-image:url('bharath-g-s-aLGiPJ4XRO4-unsplash.jpg');
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  font-weight: 600;
+  font-size: 50px;
+  box-shadow: 0 0 10px rgb(0, 0, 0), 
+              0 0 10px rgb(252, 247, 0),
+              0 0 10px rgb(112, 69, 69);
+}
+.home{
+  text-decoration: none;
+  color: rgb(0, 0, 0);  
+  margin-left: 20vh; 
+  margin-top: 2vh;
+}
+.about{
+  text-decoration: none;
+  color: rgb(0, 0, 0); 
+  margin-left: 15vw; 
+  margin-top: 2vh;
+}
+.proj{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin-left:15vw;
+  margin-top: 2vh;
+}
+.con{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin-left: 15vw;
+  margin-top: 2vh;
+}
+.main{
+    /* background-color: rgb(70, 145, 145); */
+    background-size: cover;
+    width: 208vh;
+    height: 100vh;
+}
+.contactform{
+    background-image: url('back3.jpg');
+    background-size: cover;
+    margin-top: 150px;
+    margin-left: 30vw;
+    height: 68%;
+    width: 40%;
+    font-family:'fira sans', Arial, sans-serif;
+    border-radius: 10px; /* Adjust the radius as needed */
+    box-shadow: 0 0 20px rgb(255, 1, 1); /* Neon cyan color */
+}
+.contactform h1{
+    color: aliceblue;
+    font-size: 25px;
+    margin-left: 70px;
+    padding-top: 10px;
+}
+.contactform form div{
+    font-family: 'source code pro', monospace;
+    color: antiquewhite;
+    margin-top: 8px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+   width: 26vw;
+   border-radius: 5px;
+   margin: 6px 0 0 0;
+   padding: 3px;
+}
+.btn-sm{
+    width: 10vw;
+    height: 25px;
+    border-radius: 14px;
+    margin: 6px 0 0 0;
+    cursor: pointer;
+}
+.btn-sm:hover{
+    background-color: rgb(9, 95, 152);
+    color: aliceblue;
+}
+.form-check{
+    flex-direction:row;
+}
+#form-check input{
+    width: 1.5vw;
+    margin: 3px 0;
+}
+#emailHelp{
+    font-size: 15px;
+    color: rgb(255, 0, 0);
+    margin: 10px 5px;
+}
+.sidebarGo{
+    transform: translate(-440px , 0px);
+    position: absolute;
+ }
+.hamburger{
+     position: absolute;
+     cursor: pointer;
+     top: 10px;
+     left: 10px;
+}
+.cross{
+    margin-left: 198px;
+}

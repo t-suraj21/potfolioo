@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.head{
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  background-size:cover;
+  height: 742px;
+}
+
+.siderbar{
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  background-size: cover;
+  height: 100px;
+  width:100%;
+  position: absolute;
+  font-weight: 600;
+  font-size: 50px;
+  box-shadow: 0 0 10px rgb(213, 80, 80), 
+              0 0 10px rgb(255, 255, 0),
+              0 0 10px rgb(0, 255, 55);
+}   
+.home{
+  text-decoration: none;
+  color: rgb(0, 0, 0); 
+  margin-left: 20vh; 
+  margin-top: 2vh;
+}
+.about{
+  text-decoration: none;
+  color: rgb(0, 0, 0); 
+  margin-left: 15vw; 
+  margin-top: 2vh;
+}
+.proj{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin-left:15vw ;
+  margin-top: 2vh;
+}
+.con{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin-left: 15vw;
+  margin-top: 2vh;
+}
+.proj1{
+    margin-top: 20vh;
+    width: 450px;
+    height: 150px;
+    margin-left: 25vh;
+    background-color:rgb(187, 244, 244);
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(255, 251, 251), 
+    0 0 10px rgb(203, 180, 180),
+    0 0 10px rgb(255, 255, 255);
+}
+.proj1 h1{
+   color: rgb(0, 0, 0);
+   display: flex;
+   justify-content: center;
+   font-size: 50px;
+}
+.proj1 p{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.proj1:hover{
+    background-color: rgb(0, 102, 245);
+    color: black;
+}
+.proj2{
+    margin-top: 20vh;
+    width: 450px;
+    height: 150px;
+    margin-left: 25vh;
+    background-color:rgb(187, 244, 244);
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(255, 251, 251), 
+    0 0 10px rgb(203, 180, 180),
+    0 0 10px rgb(255, 255, 255);
+}
+.proj2 h1{
+   color: rgb(0, 0, 0);
+   display: flex;
+   justify-content: center;
+   font-size: 50px;
+}
+.proj2 p{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.proj2:hover{
+    background-color: rgb(0, 102, 245);
+    color: black;
+}
+.proj3{
+    margin-top: 20vh;
+    width: 450px;
+    height: 150px;
+    margin-left: 25vh;
+    background-color:rgb(187, 244, 244);
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(255, 251, 251), 
+    0 0 10px rgb(203, 180, 180),
+    0 0 10px rgb(255, 255, 255);
+}
+.proj3 h1{
+   color: rgb(0, 0, 0);
+   display: flex;
+   justify-content: center;
+   font-size: 50px;
+}
+.proj3 p{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.proj3:hover{
+    background-color: rgb(0, 102, 245);
+    color: black;
+}
+.proj4{
+    margin-top: 20vh;
+    width: 450px;
+    height: 150px;
+    margin-left: 25vh;
+    background-color:rgb(187, 244, 244);
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(255, 251, 251), 
+    0 0 10px rgb(203, 180, 180),
+    0 0 10px rgb(255, 255, 255);
+}
+.proj4 h1{
+   color: rgb(0, 0, 0);
+   display: flex;
+   justify-content: center;
+   font-size: 50px;
+}
+.proj4 p{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.proj4:hover{
+    background-color: rgb(0, 102, 245);
+    color: black;
+}
+.btnn{
+    height: 50px;
+    width: 100px;
+    font-size: 25px;
+    margin-left: 180vh;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 250, 250);
+    cursor: pointer;
+   
+  }
+  a{
+    color: rgb(255, 252, 252);
+    text-decoration: none;
+  }
+  .btnn:hover{
+    background-color: transparent;
+  }
